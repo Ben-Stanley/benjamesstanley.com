@@ -1,0 +1,17 @@
+<footer>
+    <section>
+        <h4>Colophon</h4>
+        <p>Designed, Developed and maintained by Ben Stanley. Built with <a href="#">HTML Boilerplate</a>, <a href="#">SASS</a>, <a href="#">Compass</a> and <a href="#">SUSY</a>. Powered by <a href="#">KIRBY</a>. Hosted by <a href="#">ISO Host</a></p></p>
+    </section>
+    <section>
+        <h4>Social Things</h4>
+        <ul>
+            <li><a href="https://github.com/Ben-Stanley" class="add-social-mail"> <span class="social">Mail</span></a></li>
+            <li><a href="https://github.com/Ben-Stanley" class="add-social-github"> <span class="social">Github</span></a></li>
+            <li><a href="https://github.com/Ben-Stanley" class="add-social-twitter"> <span class="social">Twitter</span></a></li>
+        </ul>
+    </section>
+    <div>
+     <p><?php echo kirbytext($site->copyright()) ?></p>
+    </div>
+</footer>

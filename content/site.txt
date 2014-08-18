@@ -1,0 +1,9 @@
+Title: BenJamesStanley.com
+----
+Author: Ben Stanley
+----
+Description: Personal site
+----
+Keywords: front end development, html, html5, css, css3, sass, compass, kirby, jquery, javascript, gulp
+----
+Copyright: © (date: Year) (link: http://alwaysodoubledown.com text: Ben Stanley)

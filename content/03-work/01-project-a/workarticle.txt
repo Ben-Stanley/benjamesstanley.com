@@ -1,0 +1,20 @@
+Title: JimBroomfield.com
+
+----
+
+full_link: http://www.jimbroomfield.com
+
+
+----
+
+
+link: www.jimbroomfield.com
+
+
+----
+
+
+
+Text: I designed and developed a Wordpress theme. This was done using HTML/ CSS using SASS, JavaScript and php. It was designed in Photoshop CC and prototyped using foundation 5.
+
+ It is built around a blog with sections to display live shows he is playing and and writing projects he's worked on. 

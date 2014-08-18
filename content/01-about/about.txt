@@ -1,0 +1,4 @@
+Title: About
+----
+Text: Hi, I'm Ben Stanley an aspiring Front End Developer. I like to make things for the Web. 
+I'm interested in building solutions that are accessible to everyone regardless of what device is used. I also love to make noise with bits of wood and metal strings.

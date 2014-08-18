@@ -1,0 +1,11 @@
+Title: Home
+
+----
+
+Text: 
+
+<span class="title">This is a Website For
+Ben Stanley.</span>
+He is an Inspiring
+Front End Developer.
+

@@ -1,0 +1,41 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?-w18ai1');
+	src:url('../fonts/icomoon.eot?#iefix-w18ai1') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?-w18ai1') format('woff'),
+		url('../fonts/icomoon.ttf?-w18ai1') format('truetype'),
+		url('../fonts/icomoon.svg?-w18ai1#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+// Layout 
+
+//Colours
+
+$Colour-One:#293237;
+$Colour-Two:#999a9b;
+$Colour-three: #007BBB;
+
+//Fonts
+
+// $primary_Font: "adriane", serif;
+// $secondary_Font: "calluna-sans", sans-serif;
+
+$primary_Font: 'Lora', serif;
+$secondary_Font: 'Open Sans', sans-serif;
+
+//Screen Size
+
+$large_screen:37.4em;
+$small_screen: 18.75em;
+
+//grid
+
+$susy: (
+    columns: 12, 
+    gutters: 1/4,
+    math: fluid,
+    output: float,
+    gutter-position: inside,
+    );

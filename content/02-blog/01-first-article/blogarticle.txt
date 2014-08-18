@@ -1,0 +1,6 @@
+Title: This is my first Article
+----
+Date: 24th July 2014
+----
+Text: This is my first post.
+----
