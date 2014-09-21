@@ -1,0 +1,267 @@
+//Header
+
+header{
+	@include span(12);
+	padding-left:0;	
+	a{
+		text-decoration: none;
+		&:hover{
+    		text-decoration: none;
+    	}
+	}
+    nav {   	
+	    @include border_style;
+        ul {
+        	border-width:1px 0;
+    		list-style:none;
+    		margin:0;
+        	padding-left:0;
+		}
+	    li {
+	    	@include span(4 of 12);
+	    	display:inline;	    	
+    		&:nth-child(1){
+			padding-left: 0;
+			}	    			
+		}	
+    	a {
+    		font-family: $secondary_Font;
+    		display:inline-block;
+    		text-decoration: none;
+    		&:hover{
+    			text-decoration: none;
+    		}
+    		
+    	} 			
+    }
+}	
+
+.info{
+	p{
+		font-style: italic;
+		font-weight: 400;
+		font-size: 90%;
+		@include span(4 of 12);		
+		@include breakpoint($small_screen $large_screen){
+			display: none;
+			}
+		@include breakpoint($large_screen){
+    		&:nth-child(1){
+			padding-left: 0;
+			}
+    	}
+	}	
+}
+
+//Main
+
+main{
+	@include span(12);
+	padding-left: 0;
+	
+	
+}
+
+.main_home{
+		@include span(12);
+		padding-left: 0;
+	p{
+		font-family: $secondary_Font;
+		font-weight: 800;
+		font-size: 4.236em;	
+		margin-top: 0.3em;
+		@include breakpoint($small_screen $large_screen){
+			font-size: 2.618em;
+		}					
+	}
+	.title{
+		color: $Colour-three;
+	}
+	}
+
+
+//Footer
+
+footer{
+	@include span(12);
+	padding-left: 0;
+	@include breakpoint($small_screen $large_screen){
+		@include border_style;
+	}
+	section{
+		h4{
+			font-family: $secondary_Font;
+			font-size: 1em;
+		}
+
+		ul{
+			padding: 0;
+			list-style: none;
+			font-size: 90%;
+		}
+		p{
+			font-size: 90%;
+		}
+		@include breakpoint($small_screen $large_screen){
+			
+			&:nth-child(1){
+				padding-bottom:0.9em;
+				}
+		}
+		@include breakpoint($large_screen){
+			@include span(6 of 12);			
+			@include border_style;
+			&:nth-child(1){
+				padding-left:0;
+			}
+		}
+	}
+
+	div{
+		@include span(12);
+		padding-left:0;
+	}
+}
+
+// Social
+
+ // [class*="add-social"]:before {
+ //      font-family: 'icomoon';
+ //      speak: none;
+ //      font-style: normal;
+ //      font-weight: normal;
+ //      line-height: 1;
+ //      -webkit-font-smoothing: antialiased;
+ //  }
+
+ [class^="add-social"], [class*=" add-social"]:before {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	color:$Colour-Two;
+	font-size: 1em;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+[class*="add-social"]:hover {
+      color:$Colour-three;
+ }
+
+ .social{
+ 	font-family: $primary_Font;
+ }
+
+.add-social-mail{
+    
+    &:before{
+    	content: "\e609";
+    }
+    &:hover{
+    	color:$Colour-three;	
+    }
+} 
+
+.add-social-github{
+    &:before{
+    	content:"\e606";
+    }
+	&:hover{
+		color:$Colour-three;
+    	// color: #4183c4;
+    }
+}
+
+.add-social-fb{
+    &:before{
+    	content:"\e60b";
+    }
+}
+
+.add-social-twitter{
+    &:before{
+    	content: "\e60c";
+    }
+}
+
+.add-social-linkedin{
+	&:before{
+		content: "\e604";
+	}
+	&:hover{
+		color:$Colour-three;
+	}
+}
+
+
+//About
+article{
+	@include span(12);
+	padding-top:2em;
+	padding-left:0;
+}
+
+.page_title{
+	@include span(4 of 12);
+	padding-left:0;
+	@include breakpoint($small_screen $large_screen){
+		@include span(12);
+	}
+	h3{
+		margin-top: 0;
+		a{
+		text-decoration: none;
+		}
+	}
+}
+.page_content{
+	@include span(8 of 12);
+	padding-bottom: 4.5em;
+	padding-left:0;
+	@include breakpoint($small_screen $large_screen){
+		@include span(12);
+	}
+	p{
+		font-family: $primary_Font;
+		font-size: 1em;
+		font-weight: 400;
+	}
+	h3{
+		margin-top: 0;
+		a{
+		text-decoration: none;
+		}
+	}
+	a{
+		text-decoration: none;
+	}
+
+}
+
+//Blog
+
+.blog{
+	@include span(12);
+	padding-left:0;
+	a{
+		text-decoration: none;
+	}
+}
+
+.blog_title{
+	@include span(12);
+	padding-left:0;
+	h3{
+		margin-top: 35px;
+	}
+	a{
+		text-decoration: none;
+	}
+
+}

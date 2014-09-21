@@ -1,24 +1,3 @@
-@import "susy";
-@import "compass";
-@import "breakpoint";
-
-.container{
-	@include container(65em);
-}
-
-@mixin border_style{
-	border-top-style:solid;
-	border-width: thin;
-    border-top-color: $Colour-Two;
-}
-
-@mixin title{
-	@include span(12);
-		@include breakpoint($large_screen){
-			@include span( 6 of 12)
-		}
-}
-
 //Typegraphy
 
 html {

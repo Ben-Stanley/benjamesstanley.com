@@ -1,4 +1,9 @@
-@font-face {
+@import "susy";
+@import "compass";
+@import "breakpoint";
+
+
+font-face {
 	font-family: 'icomoon';
 	src:url('../fonts/icomoon.eot?-w18ai1');
 	src:url('../fonts/icomoon.eot?#iefix-w18ai1') format('embedded-opentype'),
@@ -9,29 +14,36 @@
 	font-style: normal;
 }
 
-// Layout 
-
-//Colours
-
+// Colors
 $Colour-One:#293237;
 $Colour-Two:#999a9b;
 $Colour-three: #007BBB;
 
-//Fonts
 
-// $primary_Font: "adriane", serif;
-// $secondary_Font: "calluna-sans", sans-serif;
-
+// Font Stacks
 $primary_Font: 'Lora', serif;
 $secondary_Font: 'Open Sans', sans-serif;
 
-//Screen Size
 
+// Breakpoints
 $large_screen:37.4em;
 $small_screen: 18.75em;
 
-//grid
 
+// Sizing
+$font-base: 100%;
+$font-xlarge-screens: 125%;
+$spacing: 1.5625em;
+$container-max: 80em;
+$container-width: 88%;
+
+
+// Container
+.container{
+	@include container(65em);
+}
+
+//grid
 $susy: (
     columns: 12, 
     gutters: 1/4,
@@ -39,3 +51,5 @@ $susy: (
     output: float,
     gutter-position: inside,
     );
+
+@import "modules/mixins"
